@@ -3,17 +3,14 @@ import './Navbar.css';
 
 const Navbar = (props) => {
     return (
-        <nav>
-            <div>
-                <ui>
-                    <li><a>Experience</a></li>
-                    <li><a>Project</a></li>
-                    <li><a>Skill</a></li>
-                    <li><a>Contact</a></li>
-                    <li><a>Resume</a></li>
-                </ui>
-
-            </div>
+        <nav className='header'>
+            <ui>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Skill</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Resume</a></li>
+            </ui>
         </nav>
     )
 }

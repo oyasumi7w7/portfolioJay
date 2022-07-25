@@ -1,7 +1,9 @@
 #root {
 height: 100%;
 }
-
+.App{
+  background-color: #61dafbaa;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
