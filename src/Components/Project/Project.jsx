@@ -21,13 +21,13 @@ const Project = () => {
                         <h1>Jamming</h1>
                         <div className='flex-card'>
                             <div className='pic'>
-                                <a href="http://jay-jamming-learn.surge.sh/" target="_blank"><img className="img" src={'../../../public/imgs/jamming.png'} /></a>
+                                <a href="http://jay-jamming-learn.surge.sh/" target="_blank"><img className="img" src={'../imgs/jamming.png'} /></a>
                             </div>
                             <div className="tool">
                                 <div className='col-img'>
-                                <img src="../../../public/imgs/HTML5_logo_and_wordmark.svg" />
-                                    <img src="../../../public/imgs/React-icon.svg" />
-                                    <img src="../../../public/imgs/CSS3_logo_and_wordmark.svg" />
+                                <img src="../imgs/HTML5_logo_and_wordmark.svg" />
+                                    <img src="../imgs/React-icon.svg" />
+                                    <img src="../imgs/CSS3_logo_and_wordmark.svg" />
                                     
                                 </div>
                             </div>
@@ -37,14 +37,14 @@ const Project = () => {
                         <h1>2bfit</h1>
                         <div className='flex-card'>
                             <div className='pic'>
-                                <img className="img" src={'../../../public/imgs/2bfit.png'} />
+                                <img className="img" src={'../imgs/2bfit.png'} />
                             </div>
                             <div className="tool">
                                 <div className='col-img'>
-                                <img src="../../../public/imgs/HTML5_logo_and_wordmark.svg" />
-                                    <img src="../../../public/imgs/React-icon.svg" />
-                                    <img src="../../../public/imgs/CSS3_logo_and_wordmark.svg" />
-                                    <img src="../../../public/imgs/MongoDB_Logo.svg" />
+                                <img src="../imgs/HTML5_logo_and_wordmark.svg" />
+                                    <img src="../imgs/React-icon.svg" />
+                                    <img src="../CSS3_logo_and_wordmark.svg" />
+                                    <img src="../imgs/MongoDB_Logo.svg" />
                                 </div>
                             </div>
                         </div>
@@ -53,14 +53,14 @@ const Project = () => {
                         <h1>Monnymon Shop</h1>
                         <div className='flex-card'>
                             <div className='pic'>
-                                <img className="img" src={'../../../public/imgs/monnymon.png'} />
+                                <img className="img" src={'../imgs/monnymon.png'} />
                             </div>
                             <div className="tool">
                                 <div className='col-img'>
-                                    <img src="../../../public/imgs/HTML5_logo_and_wordmark.svg" />
-                                    <img src="../../../public/imgs/PHP-logo.svg" />
-                                    <img src="../../../public/imgs/CSS3_logo_and_wordmark.svg" />
-                                    <img src="../../../public/imgs/Javascript_badge.svg" />
+                                    <img src="../imgs/HTML5_logo_and_wordmark.svg" />
+                                    <img src="../imgs/PHP-logo.svg" />
+                                    <img src="../imgs/CSS3_logo_and_wordmark.svg" />
+                                    <img src="../imgs/Javascript_badge.svg" />
                                 </div>
                             </div>
                         </div>

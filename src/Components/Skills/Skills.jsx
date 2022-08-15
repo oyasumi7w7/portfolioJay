@@ -13,7 +13,7 @@ const Skills = () => {
         { imgName: 'React-icon' }])
 
     console.log(img[3])
-    const images = img.map((image) => <div className='child'> <img src={`../../../public/imgs/${image.imgName}.svg`} /></div>)
+    const images = img.map((image) => <div className='child'> <img src={`../imgs/${image.imgName}.svg`} /></div>)
 
     return (
         <div id='Skill' className='skill'>
