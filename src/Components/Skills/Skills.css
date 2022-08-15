@@ -1,0 +1,28 @@
+.skill{
+   text-align: center;
+   text-align: -webkit-center;
+   padding-top: 100px;
+
+}
+.skill h3{
+    margin-bottom: 20px;
+    font-size: 50px;
+    /* text-decoration:double underline; */
+}
+.skillIcon{
+ width: 70%;
+display: flex;
+/* justify-content: center; */
+place-content: center;
+/* justify-content: flex-start; */
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.skillIcon img {
+    width: 100px;
+    height: 100px;
+}
+.child{
+width: 30%;
+margin: 10px 0;
+}

@@ -1,0 +1,18 @@
+.Aboutme{
+    color: black;
+    /* position: absolute; */
+    margin-left:20% ;
+    margin-right: auto;
+    margin-top: -5%;
+    width: 50%;
+}
+.Aboutme h4{
+    font-size: 5em;
+    font-weight: bolder;
+}.Aboutme h2{
+    font-size: 3em;
+}
+.Aboutme p{
+    font-size: 1.1em;
+}
+

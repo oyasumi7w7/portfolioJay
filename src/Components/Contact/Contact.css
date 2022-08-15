@@ -1,0 +1,44 @@
+.contact {
+    text-align: center;
+    text-align: -webkit-center;
+    padding: 100px 0 60px 0;
+    background-color: white;
+
+}
+
+.contact h3 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    /* text-decoration:double underline; */
+}
+
+.contact p {
+    font-size: 25px;
+}
+
+.content {
+    width: 70%;
+}
+
+.email-content {
+    margin-top: 20px;
+    text-align: left;
+    
+
+}
+.email-content img{
+    margin-right: 10px;
+    width: 50px;
+}
+
+.c-content p {
+    font-size: 20px;
+}
+.rows{
+    display: flex;
+    justify-content: space-between;
+}
+.cols{
+    display: flex;
+    align-items: center;
+}

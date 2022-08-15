@@ -1,0 +1,70 @@
+.project {
+    box-sizing: border-box;
+    text-align: center;
+    text-align: -webkit-center;
+    padding-top: 100px;
+}
+
+.project h3 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+
+/* .title {
+    margin-bottom: 20px;
+    padding: 20px
+} */
+
+
+.container-fluid .card {
+    background-color: rgb(182, 182, 182);
+    width: 40%;
+    border: ridge;
+    border-radius: 20px;
+    width: fit-content;
+    width: 50%;
+}
+
+.container-fluid .card h1 {
+    margin-bottom: 10px;
+}
+
+.container-fluid .card h4 {
+    margin-top: 10px;
+}
+
+.container-fluid .owl-nav span {
+    font-size: 50px;
+}
+
+.flex-card {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tool img {
+    max-inline-size: fit-content;
+    padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.col-img {
+    width: 50px;
+   padding: 5px;
+}
+
+.tool {
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.pic img {
+    border-radius: 10px;
+
+}
