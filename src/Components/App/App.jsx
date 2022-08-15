@@ -35,7 +35,7 @@ const App = () => {
       <div className='footer'>
         <Contact />
       </div>
-      <a href="#"><button className='backTop'><img src="../../../public/iconmonstr-caret-up-circle-lined.svg" /></button></a>
+      <a href="#"><button className='backTop'><img src="../iconmonstr-caret-up-circle-lined.svg" /></button></a>
     </div>
   )
 
