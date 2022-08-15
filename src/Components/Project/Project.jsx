@@ -43,7 +43,7 @@ const Project = () => {
                                 <div className='col-img'>
                                 <img src="../imgs/HTML5_logo_and_wordmark.svg" />
                                     <img src="../imgs/React-icon.svg" />
-                                    <img src="../CSS3_logo_and_wordmark.svg" />
+                                    <img src="../imgs/CSS3_logo_and_wordmark.svg" />
                                     <img src="../imgs/MongoDB_Logo.svg" />
                                 </div>
                             </div>
