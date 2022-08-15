@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Skills.css';
-
+import React from 'react'
 const Skills = () => {
     const [img, setImg] = useState([
         { imgName: 'CSS3_logo_and_wordmark' },

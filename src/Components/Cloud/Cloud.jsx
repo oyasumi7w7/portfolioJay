@@ -1,6 +1,6 @@
 import './Cloud.css';
 import './CloudMedia.css';
-
+import React from 'react'
 const Cloud = () => {
     return (
         <div class="cloudPane">
