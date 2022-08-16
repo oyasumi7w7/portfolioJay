@@ -16,3 +16,19 @@
     font-size: 1.1em;
 }
 
+@media screen and (max-width: 420px) {
+    .Aboutme{
+        margin-left:10% ;
+    margin-top: -40%;
+        width: 80%;
+    }
+    .Aboutme h4{
+        font-size: 60px;
+        font-weight: bolder;
+    }.Aboutme h2{
+        font-size: 25px;
+    }
+    .Aboutme p{
+        font-size: 20px;
+    }
+}

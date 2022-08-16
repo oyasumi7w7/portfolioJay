@@ -1,10 +1,11 @@
-.navbar {
+.topnav {
     display: none;
 }
 
 @media screen and (max-width: 420px) {
-    .navbar {
+    .topnav {
         display: block;
+        
     }
     .hamburger, .close {
         border: none;
@@ -34,7 +35,7 @@
       }
       
       .navbar {
-        position: absolute;
+        position: fixed;
         /* a higher z-index put navbar above hamburger */
         z-index: 1000;
         top: 0;
@@ -52,6 +53,7 @@
         /* animate slide up/down */
         transform: translateY(-100%);
         transition: transform 0.2s ease;
+        padding-top: 20vw;
       }
       
       /* :target is called when its anchor id #navbar is called by clicking on the hamburger which has href="#navbar" */

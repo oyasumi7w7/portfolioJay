@@ -205,7 +205,7 @@ body {
 }
 
 /*circle shadows*/
-#circ1shadow,
+/* #circ1shadow,
 #circ2shadow,
 #circ3shadow,
 #circ5shadow,
@@ -256,7 +256,7 @@ body {
     background: -moz-radial-gradient(44% 65%, circle, rgba(204, 0, 0, 0) 53px, #9BBBC4 40px);
     background: radial-gradient(44% 65%, circle, rgba(204, 0, 0, 0) 53px, #9BBBC4 40px);
     top: 0px;
-}
+} */
 
 /*style the clouds*/
 .bigCloud {

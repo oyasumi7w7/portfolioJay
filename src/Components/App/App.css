@@ -5,42 +5,9 @@ height: 100%;
   /*background-color: #000000;*/
   /* color: white; 
 } */
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
 .top{
-  padding-bottom: 125px;
+  padding-bottom: 10vw;
   background: linear-gradient(black,#4A4A4A);
 }
 .Cloud {
@@ -49,27 +16,47 @@ height: 100%;
 }
 .showcontent{
   
-  background: linear-gradient(#e1f4f6,#f6f4d4) ;
+  background: linear-gradient(#e1f4f6,#ebe7b0) ;
 }
 .maincontent{
   background: linear-gradient(#c9e5ee,20%,#afeafb,50%,#e1f4f6);
 }
 .backTop{
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    height: 30px;;
-    max-width: 30px;
+    bottom: 2vw;
+    right: 2vw;
+    height: 50px;
+    max-width: 50px;
     width: 100%;
-    font-size: 12px;
     border-color: rgba(203, 108, 108, 0.2);
     background-color: rgb(0, 133, 241);
-    padding: .5px;
-    border-radius: 10px;
-
+    padding: 0.1vw;
+    border-radius: 2vw;
+    z-index: 3;
 }
+
 /*On Hover Color Change*/
 .backTop:hover {
     background-color: #7dbbf1;
 }
-
+.rectangle {
+  height: 5vw;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(252,252,252,1) 0%, rgba(172,218,242,1) 64%);
+}
+@media screen and (max-width: 720px) {
+  .top{
+    padding-bottom: 18vw;
+  }
+}
+@media screen and (max-width: 420px) {
+  .backTop{
+    bottom: 5vw;
+    right: 5vw;
+    border-radius: 6vw;
+  }
+  .top{
+    padding-bottom: 17vw;
+    background: linear-gradient(black,#4A4A4A);
+  }
+}

@@ -6,6 +6,7 @@ const Timeline = () => {
             <div className='center'>
                 <h2>Timeline/Experience</h2>
             </div>
+            
             <div className='timeline'>
                 <div class="outer">
                     <div class="card">

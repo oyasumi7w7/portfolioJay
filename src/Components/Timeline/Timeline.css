@@ -1,7 +1,9 @@
 /* Timeline Container */
 .divtimeline{
-    
   padding-top: 100px;
+}
+.mobile{
+  display: none;
 }
 .timeline {
     background: var(--primary-color);
@@ -126,4 +128,10 @@
   /* setting dot to the right if the card is odd */
   .timeline .card:nth-child(even) > .info > .title::before {
     right: -55px;
+  }
+
+  @media screen and (max-width: 420px) {
+    .center h2{
+     font-size: 30px;
+    }
   }

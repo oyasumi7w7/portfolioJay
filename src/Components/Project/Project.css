@@ -10,20 +10,14 @@
     font-size: 50px;
 }
 
-
-/* .title {
-    margin-bottom: 20px;
-    padding: 20px
-} */
-
-
 .container-fluid .card {
-    background-color: rgb(182, 182, 182);
+    background-color: #77ccfa;
     width: 40%;
     border: ridge;
     border-radius: 20px;
     width: fit-content;
     width: 50%;
+    padding: 2em;
 }
 
 .container-fluid .card h1 {
@@ -70,4 +64,31 @@
 }
 .owl-carousel.owl-loaded {
     z-index: 2;
+}
+
+@media screen and (max-width: 420px) {
+    .flex-card {
+        display:block;
+    }
+    .col-img {
+        display: flex;
+        width: 40px;
+        
+    }
+    .tool  {
+       margin-top: 10px;
+       margin-left: 0;
+    }
+    .tool img {
+        padding-top: 0;
+       padding-bottom: 0;
+       
+    }
+    .project h1 {
+        font-size: 20px;
+    }
+    .container-fluid .card {
+        width: 90%;
+        padding: 5px;
+    }
 }

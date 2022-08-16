@@ -1,7 +1,7 @@
 .contact {
     text-align: center;
     text-align: -webkit-center;
-    padding: 100px 0 60px 0;
+    padding: 1vw 0 60px 0;
     background-color: #acdaf2;
 
 }
@@ -15,11 +15,13 @@
 .contact p {
     font-size: 25px;
 }
-.contact a{
+
+.contact a {
     color: black;
     text-decoration: none;
 }
-.contact a:hover{
+
+.contact a:hover {
     background-color: dimgrey;
     padding: 10px;
     border-radius: 10px;
@@ -32,10 +34,11 @@
 .email-content {
     margin-top: 20px;
     text-align: left;
-    
+
 
 }
-.email-content img{
+
+.email-content img {
     margin-right: 10px;
     width: 50px;
 }
@@ -43,11 +46,45 @@
 .c-content p {
     font-size: 20px;
 }
-.rows{
+
+.rows {
     display: flex;
     justify-content: space-between;
 }
-.cols{
+
+.cols {
     display: flex;
     align-items: center;
+}
+@media screen and (max-width: 720px) {
+    .contact h3 {
+        font-size: 30px;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+    .rows {
+        display: block;
+    }
+    .content {
+        width: 90%;
+        
+    }
+}
+@media screen and (max-width: 420px) {
+    .contact h3 {
+        font-size: 30px;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+    .rows {
+        display: block;
+    }
+    .content {
+        width: 90%;
+        
+    }
 }

@@ -1,10 +1,171 @@
+@media screen and (max-width: 720px) {
+    #cloud1 {
+        top: 15vw;
+    }
+    .bigCloud {
+        height: 9vw;
+        width: 9vw;
+        box-shadow: none;
+    }
+
+    .smallCircle {
+        height: 70px;
+        width: 70px;
+        background: white;
+        border-radius: 100%;
+        position: absolute;
+    }
+
+    .middleCircle {
+        height: 100px;
+        width: 100px;
+        background: white;
+        border-radius: 100%;
+        position: absolute;
+    }
+
+    .largeCircle {
+        height: 120px;
+        width: 120px;
+        background: white;
+        border-radius: 100%;
+        position: absolute;
+    }
+    #circ1 {
+        z-index: 1;
+    }
+
+    #circ2 {
+        top: 20px;
+        left: -20px;
+    }
+
+    #circ3 {
+        top: 20px;
+        left: -60px;
+    }
+
+    #circ4 {
+        top: 10px;
+        left: -20px;
+    }
+
+    #circ5 {
+        top: 50px;
+        left: -85px;
+    }
+
+    #circ6 {
+        top: 50px;
+        left: 80px;
+    }
+@-webkit-keyframes drift {
+        0% {
+            left: 64%;
+            opacity: 0
+        }
+
+        3% {
+            left: 60%;
+            opacity: .7
+        }
+
+        100% {
+            left: -25%;
+        }
+    }
+
+    @-moz-keyframes drift {
+        0% {
+            left: 64%;
+            opacity: 0
+        }
+
+        3% {
+            left: 60%;
+            opacity: .7
+        }
+
+        100% {
+            left: -25%;
+        }
+    }
+
+    @keyframes drift {
+        0% {
+            left: 64%;
+            opacity: 0
+        }
+
+        3% {
+            left: 60%;
+            opacity: .7
+        }
+
+        100% {
+            left: -25%;
+        }
+    }
+
+    @-webkit-keyframes driftBg3 {
+        0% {
+            left: 82%;
+            opacity: 0
+        }
+
+        2% {
+            left: 80%;
+            opacity: .65
+        }
+
+        100% {
+            left: -25%;
+            opacity: .65;
+        }
+    }
+
+    @-moz-keyframes driftBg3 {
+        0% {
+            left: 82%;
+            opacity: 0
+        }
+
+        2% {
+            left: 80%;
+            opacity: .65
+        }
+
+        100% {
+            left: -25%;
+            opacity: .65;
+        }
+    }
+
+    @keyframes driftBg3 {
+        0% {
+            left: 82%;
+            opacity: 0
+        }
+
+        2% {
+            left: 80%;
+            opacity: .65
+        }
+
+        100% {
+            left: -25%;
+            opacity: .65;
+        }
+    }
+
+}
+
+
+
 @media screen and (max-width: 420px) {
     #cloud1 {
         top: 120px;
     }
-
-   
-    
     .bigCloud {
         height: 50px;
         width: 50px;

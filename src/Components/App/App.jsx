@@ -28,13 +28,14 @@ const App = () => {
 
       <div className='maincontent'>
         <Timeline />
-        <Skills /> 
+        <Skills />
       </div>
       <div className='showcontent'>
         <Project />
       </div>
       <Mountain />
       <div className='footer'>
+        <div class="rectangle"></div>
         <Contact />
       </div>
       <a href="#"><button className='backTop'><img src="../iconmonstr-caret-up-circle-lined.svg" /></button></a>

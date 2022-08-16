@@ -16,6 +16,10 @@ const Contact = () => {
                             <img src='../Ic_phone_android_48px.svg' />
                             <p>Phone : 061-685-5982</p>
                         </div>
+                        <div  className='cols'>
+                            <img src='../imgs/Octicons-mark-github.svg' />
+                            <a href="https://github.com/oyasumi7w7"><p>My GitHub</p></a>
+                        </div>
                     </div>
                 </div>
             </div>
