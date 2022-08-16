@@ -10,6 +10,7 @@ import Skills from '../Skills/Skills'
 import Project from '../Project/Project'
 import Contact from '../Contact/Contact'
 import Timeline from '../Timeline/Timeline'
+import Mountain from '../Background/Mountain/Mountain'
 
 const App = () => {
 
@@ -27,11 +28,12 @@ const App = () => {
 
       <div className='maincontent'>
         <Timeline />
-        <Skills />
+        <Skills /> 
       </div>
       <div className='showcontent'>
         <Project />
       </div>
+      <Mountain />
       <div className='footer'>
         <Contact />
       </div>

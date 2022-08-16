@@ -68,3 +68,6 @@
     border-radius: 10px;
 
 }
+.owl-carousel.owl-loaded {
+    z-index: 2;
+}

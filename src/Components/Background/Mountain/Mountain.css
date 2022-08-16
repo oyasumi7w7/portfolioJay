@@ -1,0 +1,46 @@
+.Mountain-main{
+position: relative;
+
+}
+
+.mountain, .mountain-two, .mountain-three {
+    position: absolute;
+    bottom: 0;
+    
+    border-left: 15vw solid transparent;
+    border-right: 15vw solid transparent;
+    border-bottom: 30vw solid #acdaf2;
+    z-index: 1;
+}
+.mountain{
+    left: 4vw;
+    
+}
+.mountain-two { 
+    left: 65vw;
+    
+
+    z-index: 0;
+}
+.mountain-three {
+    left: 34.5vw;
+
+    z-index: 0;
+}
+.mountain-top {
+    position: absolute;
+    right: -7vw;
+    
+    border-left: 7vw solid transparent;
+    border-right: 7vw solid transparent;
+    border-bottom: 14vw solid white;
+    z-index: 2;
+}
+.mountain-cap-1, .mountain-cap-2, .mountain-cap-3 {
+    position: absolute;
+    
+    top: 14vw;
+    border-left: 2vw solid transparent;
+    border-right: 2vw solid transparent;
+    border-top: 3vw solid white;
+}

@@ -10,7 +10,7 @@ const Contact = () => {
                     <div className='rows'>
                         <div className='cols'>
                             <img src='../iconmonstr-email-10.svg' />
-                            <p>Email : jay.alongkorn.th@gmail.com</p>
+                            <a href="mailto:jay.alongkorn.th@gmail.com"><p>Email : jay.alongkorn.th@gmail.com</p></a>
                         </div>
                         <div  className='cols'>
                             <img src='../Ic_phone_android_48px.svg' />

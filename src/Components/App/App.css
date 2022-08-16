@@ -49,10 +49,10 @@ height: 100%;
 }
 .showcontent{
   
-  background-color: white ;
+  background: linear-gradient(#e1f4f6,#f6f4d4) ;
 }
 .maincontent{
-  background: linear-gradient(#c9e5ee,20%,#afeafb,70%,white );
+  background: linear-gradient(#c9e5ee,20%,#afeafb,50%,#e1f4f6);
 }
 .backTop{
     position: fixed;
