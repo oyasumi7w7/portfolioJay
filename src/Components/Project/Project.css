@@ -9,7 +9,10 @@
     margin-bottom: 20px;
     font-size: 50px;
 }
-
+.pic img{
+    height: 100%; 
+    width: 100%
+}
 .container-fluid .card {
     background-color: #77ccfa;
     width: 40%;
@@ -47,7 +50,19 @@
 .col-img , .github {
     width: 50px;
    padding: 5px;
+  
 }
+/* .col-img{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 80%
+}
+.col-img img{
+
+    height: 20%
+} */
 
 .tool {
     margin-left: 10px;
