@@ -11,7 +11,7 @@ const Navbar = (props) => {
                 <li><a href="#Skill">Skill</a></li> 
                 <li><a href="#Project">Project</a></li>
                 <li><a href="#Contact">Contact</a></li>
-                <li><a href="https://drive.google.com/file/d/1TpY4Da1wqsQU_trSxVMk3pBFyGfE_4i2/view?usp=sharing" target="_blank">Resume</a></li>
+                <li><a href="https://drive.google.com/file/d/1sewQ0y6QvC9vVvHSXLq_-5IO9mrqWwtE/view?usp=sharing" target="_blank">Resume</a></li>
             </ui>
         </nav>
     )
