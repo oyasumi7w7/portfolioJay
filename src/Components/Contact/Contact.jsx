@@ -18,7 +18,11 @@ const Contact = () => {
                         </div>
                         <div  className='cols'>
                             <img src='../imgs/Octicons-mark-github.svg' />
-                            <a href="https://github.com/oyasumi7w7"><p>My GitHub</p></a>
+                            <a href="https://github.com/oyasumi7w7" target="_blank"><p>My GitHub</p></a>
+                        </div>
+                        <div  className='cols'>
+                            <img src='../imgs/61109.png' />
+                            <a href="https://www.linkedin.com/in/alongkorn-thepwong-7a7221246/" target="_blank"><p>My LinkIn</p></a>
                         </div>
                     </div>
                 </div>

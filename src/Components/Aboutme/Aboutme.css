@@ -1,34 +1,96 @@
-.Aboutme{
+.Aboutme {
+    display: flex;
     color: black;
     /* position: absolute; */
-    margin-left:20% ;
+    margin-left: 20%;
     margin-right: auto;
     margin-top: -5%;
     width: 50%;
 }
-.Aboutme h4{
+
+.Aboutme h4 {
     font-size: 5em;
     font-weight: bolder;
-}.Aboutme h2{
+}
+
+.Aboutme h2 {
     font-size: 3em;
 }
-.Aboutme p{
-    font-size: 1.1em;
+
+.Aboutme p {
+    margin-top: 5px;
+    font-size: 1.3em;
+}
+
+.Aboutme img {
+    width: 300px;
+
+    border-radius: 50%;
+}
+
+.me-right {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.flex-me {
+    display: flex;
+    align-items: center;
+}
+
+.flex-me h4 {
+    padding-right: 50px;
+}
+
+.flex-me img {
+    width: 50px;
+    padding: 0 10px;
+}
+
+.link-me {
+    display: none;
 }
 
 @media screen and (max-width: 420px) {
-    .Aboutme{
-        margin-left:10% ;
-    margin-top: -40%;
+    .Aboutme {
+        margin-left: 10%;
+        margin-top: -40%;
         width: 80%;
+        display: block;
     }
-    .Aboutme h4{
+
+    .Aboutme h4 {
         font-size: 60px;
         font-weight: bolder;
-    }.Aboutme h2{
+    }
+
+    .Aboutme h2 {
         font-size: 25px;
     }
-    .Aboutme p{
+
+    .Aboutme p {
         font-size: 20px;
+    }
+
+    .flex-me img {
+        display: none;
+    }
+
+    .link-me {
+        display: block;
+    }
+    .link-me img{
+        width: 50px;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .Aboutme {
+        display: block;
+    }
+
+    .me-left {
+        text-align: center;
     }
 }

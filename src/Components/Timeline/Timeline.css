@@ -134,4 +134,7 @@
     .center h2{
      font-size: 30px;
     }
+    .timeline {
+      padding:0;
+    }
   }

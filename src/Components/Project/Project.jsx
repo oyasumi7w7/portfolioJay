@@ -25,10 +25,13 @@ const Project = () => {
                             </div>
                             <div className="tool">
                                 <div className='col-img'>
-                                <img src="../imgs/HTML5_logo_and_wordmark.svg" />
+                                    <img src="../imgs/HTML5_logo_and_wordmark.svg" />
                                     <img src="../imgs/React-icon.svg" />
                                     <img src="../imgs/CSS3_logo_and_wordmark.svg" />
-                                    
+                                </div>
+                                <div className='github'>
+                                    <a href="https://github.com/oyasumi7w7/oyasumi.7w7.github.io-my-jamming" target="_blank">
+                                        <img src="../imgs/Octicons-mark-github.svg" /></a>
                                 </div>
                             </div>
                         </div>
@@ -41,10 +44,14 @@ const Project = () => {
                             </div>
                             <div className="tool">
                                 <div className='col-img'>
-                                <img src="../imgs/HTML5_logo_and_wordmark.svg" />
+                                    <img src="../imgs/HTML5_logo_and_wordmark.svg" />
                                     <img src="../imgs/React-icon.svg" />
                                     <img src="../imgs/CSS3_logo_and_wordmark.svg" />
                                     <img src="../imgs/MongoDB_Logo.svg" />
+                                </div>
+                                <div className='github'>
+                                    <a href="https://github.com/dDoraemoNb/finalProject.github.io" target="_blank"><
+                                        img src="../imgs/Octicons-mark-github.svg" /></a>
                                 </div>
                             </div>
                         </div>
@@ -61,6 +68,10 @@ const Project = () => {
                                     <img src="../imgs/PHP-logo.svg" />
                                     <img src="../imgs/CSS3_logo_and_wordmark.svg" />
                                     <img src="../imgs/Javascript_badge.svg" />
+                                    <img src="../imgs/Database-mysql.svg" />
+                                </div>
+                                <div className='github'>
+                                    <img src="../imgs/Octicons-mark-github.svg" />
                                 </div>
                             </div>
                         </div>
