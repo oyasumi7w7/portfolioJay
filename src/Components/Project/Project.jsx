@@ -40,7 +40,8 @@ const Project = () => {
                         <h1>2bfit</h1>
                         <div className='flex-card'>
                             <div className='pic'>
-                                <img className="img" src={'../imgs/2bfit.png'} />
+                            <a href="https://www.figma.com/file/XTQ2qTyoM1uabcnA3t7uCT/Todo-List-(Final-project)?node-id=0%3A1" target="_blank">
+                                <img className="img" src={'../imgs/2bfit.png'} /></a>
                             </div>
                             <div className="tool">
                                 <div className='col-img'>
