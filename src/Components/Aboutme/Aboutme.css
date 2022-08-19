@@ -58,7 +58,10 @@
         width: 80%;
         display: block;
     }
-
+    .Aboutme img {
+        width: 300px;
+        border-radius: 25%;
+    }
     .Aboutme h4 {
         font-size: 60px;
         font-weight: bolder;
