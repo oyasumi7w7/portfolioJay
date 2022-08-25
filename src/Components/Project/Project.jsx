@@ -40,7 +40,7 @@ const Project = () => {
                         <h1>2bfit</h1>
                         <div className='flex-card'>
                             <div className='pic'>
-                            <a href="https://www.figma.com/file/XTQ2qTyoM1uabcnA3t7uCT/Todo-List-(Final-project)?node-id=0%3A1" target="_blank">
+                            <a href="https://fit2b-front-end.vercel.app/" target="_blank">
                                 <img className="img" src={'../imgs/2bfit.png'} /></a>
                             </div>
                             <div className="tool">
@@ -51,7 +51,7 @@ const Project = () => {
                                     <img src="../imgs/MongoDB_Logo.svg" />
                                 </div>
                                 <div className='github'>
-                                    <a href="https://github.com/dDoraemoNb/finalProject.github.io" target="_blank"><
+                                    <a href="https://github.com/oyasumi7w7/fit2bFrontEnd" target="_blank"><
                                         img src="../imgs/Octicons-mark-github.svg" /></a>
                                 </div>
                             </div>
