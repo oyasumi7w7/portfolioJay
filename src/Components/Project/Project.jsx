@@ -51,8 +51,8 @@ const Project = () => {
                                     <img src="../imgs/MongoDB_Logo.svg" />
                                 </div>
                                 <div className='github'>
-                                    <a href="https://github.com/oyasumi7w7/fit2bFrontEnd" target="_blank"><
-                                        img src="../imgs/Octicons-mark-github.svg" /></a>
+                                    <a href="https://github.com/oyasumi7w7/fit2bFrontEnd" target="_blank">
+                                        <img src="../imgs/Octicons-mark-github.svg" /></a>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +72,8 @@ const Project = () => {
                                     <img src="../imgs/Database-mysql.svg" />
                                 </div>
                                 <div className='github'>
-                                    <img src="../imgs/Octicons-mark-github.svg" />
+                                <a href="https://github.com/oyasumi7w7/monnymon" target="_blank">
+                                    <img src="../imgs/Octicons-mark-github.svg" /></a>
                                 </div>
                             </div>
                         </div>
