@@ -36,27 +36,7 @@ const Project = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='card'>
-                        <h1>2bfit</h1>
-                        <div className='flex-card'>
-                            <div className='pic'>
-                            <a href="https://fit2b-front-end.vercel.app/" target="_blank">
-                                <img className="img" src={'../imgs/2bfit.png'} /></a>
-                            </div>
-                            <div className="tool">
-                                <div className='col-img'>
-                                    <img src="../imgs/HTML5_logo_and_wordmark.svg" />
-                                    <img src="../imgs/React-icon.svg" />
-                                    <img src="../imgs/CSS3_logo_and_wordmark.svg" />
-                                    <img src="../imgs/MongoDB_Logo.svg" />
-                                </div>
-                                <div className='github'>
-                                    <a href="https://github.com/oyasumi7w7/fit2bFrontEnd" target="_blank">
-                                        <img src="../imgs/Octicons-mark-github.svg" /></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                     <div className='card'>
                         <h1>Monnymon Shop</h1>
                         <div className='flex-card'>
@@ -74,6 +54,27 @@ const Project = () => {
                                 <div className='github'>
                                 <a href="https://github.com/oyasumi7w7/monnymon" target="_blank">
                                     <img src="../imgs/Octicons-mark-github.svg" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='card'>
+                        <h1>Fit2b</h1>
+                        <div className='flex-card'>
+                            <div className='pic'>
+                            <a href="https://fit2b-front-end.vercel.app/" target="_blank">
+                                <img className="img" src={'../imgs/2bfit.png'} /></a>
+                            </div>
+                            <div className="tool">
+                                <div className='col-img'>
+                                    <img src="../imgs/HTML5_logo_and_wordmark.svg" />
+                                    <img src="../imgs/React-icon.svg" />
+                                    <img src="../imgs/CSS3_logo_and_wordmark.svg" />
+                                    <img src="../imgs/MongoDB_Logo.svg" />
+                                </div>
+                                <div className='github'>
+                                    <a href="https://github.com/oyasumi7w7/fit2bFrontEnd" target="_blank">
+                                        <img src="../imgs/Octicons-mark-github.svg" /></a>
                                 </div>
                             </div>
                         </div>
