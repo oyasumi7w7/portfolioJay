@@ -22,7 +22,7 @@ const Project = () => {
                         <div className='flex-card'>
                             <div className='pic'>
                                 <a href="https://chiangmai-busking-frontend.vercel.app/" target="_blank">
-                                    <img className="img" src={'../imgs/cm.busking.png'} /></a>
+                                    <img className="img" src={'../imgs/cm.busking.PNG'} /></a>
                             </div>
                             <div className="tool">
                                 <div className='col-img'>
